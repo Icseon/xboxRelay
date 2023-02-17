@@ -1,0 +1,19 @@
+{
+  "name": "icseon.xbox-relay",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Simple Xbox UDP Relay Server",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=icseon.xboxRelay.* node src/app.js"
+  },
+  "author": "Icseon",
+  "license": "ISC",
+  "dependencies": {
+    "byte-data": "^19.0.1",
+    "debug": "^4.3.4",
+    "mac-address": "^0.3.0",
+    "node-cron": "^3.0.2"
+  }
+}
